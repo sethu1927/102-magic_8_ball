@@ -8,7 +8,7 @@ $(document).ready(function() {
   magic8Ball.askQuestion = function(question) {
     $("#8ball").effect("shake");
 
-    $("#8ball").attr("src", "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/magic8ballAnswer.png");
+    $("#8ball").attr("src", "images/magic8ballQuestion.png");
 
     $("#answer").fadeIn(4000);
 
@@ -30,7 +30,7 @@ $(document).ready(function() {
 
     $("#answer").hide();
 
-    $("#8ball").attr("src", "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/magic8ballQuestion.png");
+    $("#8ball").attr("src", "images/magic8ballQuestion.png");
 
 
     setTimeout(function(){

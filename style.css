@@ -5,6 +5,7 @@ body {
   padding: 0px;
   background-color: #f8f8f8;
   background-image: url('bkgd2.png');
+  border: #222;
 }
 .page {
   width: 80%;
